@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.android.quizzapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            style="@style/title"
+            android:paddingTop="8dp"
+            android:text="@string/guess_who_title" />
+
+        <TextView
+            style="@style/quote"
+            android:text="@string/do_or_do_not" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <EditText
+                    android:id="@+id/do_or_do_not_answer"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </RadioGroup>
+
+
+        <TextView
+            style="@style/title"
+            android:text="@string/quotes_title" />
+
+        <TextView
+            style="@style/quote"
+            android:text="@string/bigger_boat" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/jaws"
+                    style="@style/quizOption"
+                    android:text="@string/jaws" />
+
+                <RadioButton
+                    android:id="@+id/titanic"
+                    style="@style/quizOption"
+                    android:text="@string/titanic" />
+            </LinearLayout>
+        </RadioGroup>
+
+        <TextView
+            style="@style/quote"
+            android:text="@string/resistance_is_futile" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/galactica"
+                    style="@style/quizOption"
+                    android:text="@string/galactica" />
+
+                <RadioButton
+                    android:id="@+id/star_trek"
+                    style="@style/quizOption"
+                    android:text="@string/star_trek_voyager" />
+            </LinearLayout>
+        </RadioGroup>
+
+        <TextView
+            style="@style/quote"
+            android:text="@string/this_town_needs_an_enema" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/batman"
+                    style="@style/quizOption"
+                    android:text="@string/batman" />
+
+                <RadioButton
+                    android:id="@+id/ace_ventura"
+                    style="@style/quizOption"
+                    android:text="@string/ace_ventura_pet_detective" />
+            </LinearLayout>
+        </RadioGroup>
+
+        <TextView
+            style="@style/quote"
+            android:text="@string/what_have_the_romans" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/gladiator"
+                    style="@style/quizOption"
+                    android:text="@string/gladiator" />
+
+                <RadioButton
+                    android:id="@+id/life_bryan"
+                    style="@style/quizOption"
+                    android:text="@string/life_of_bryan" />
+            </LinearLayout>
+        </RadioGroup>
+
+        <TextView
+            style="@style/quote"
+            android:text="@string/what_she_is_having" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/harry_met_sally"
+                    style="@style/quizOption"
+                    android:text="@string/when_harry_met_sally" />
+
+                <RadioButton
+                    android:id="@+id/notting_hill"
+                    style="@style/quizOption"
+                    android:text="@string/notting_hill" />
+            </LinearLayout>
+        </RadioGroup>
+
+        <TextView
+            style="@style/quote"
+            android:text="@string/back_online" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/minority_report"
+                    style="@style/quizOption"
+                    android:text="@string/minority_report" />
+
+                <RadioButton
+                    android:id="@+id/westworld"
+                    style="@style/quizOption"
+                    android:text="@string/westworld" />
+            </LinearLayout>
+        </RadioGroup>
+
+        <TextView
+            style="@style/quote"
+            android:text="@string/no_true_king" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/game_thrones"
+                    style="@style/quizOption"
+                    android:text="@string/game_of_thrones" />
+
+                <RadioButton
+                    android:id="@+id/the_300"
+                    style="@style/quizOption"
+                    android:text="@string/the_300" />
+            </LinearLayout>
+        </RadioGroup>
+
+        <TextView
+            style="@style/quote"
+            android:text="@string/always_forward_pops" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/superman"
+                    style="@style/quizOption"
+                    android:text="@string/superman" />
+
+                <RadioButton
+                    android:id="@+id/luke_cage"
+                    style="@style/quizOption"
+                    android:text="@string/luke_cage" />
+            </LinearLayout>
+        </RadioGroup>
+
+        <TextView
+            style="@style/quote"
+            android:text="@string/play_a_game" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <RadioButton
+                    android:id="@+id/wargames"
+                    style="@style/quizOption"
+                    android:text="@string/wargames" />
+
+                <RadioButton
+                    android:id="@+id/mr_robot"
+                    style="@style/quizOption"
+                    android:text="@string/mr_robot" />
+            </LinearLayout>
+        </RadioGroup>
+
+        <TextView
+            style="@style/title"
+            android:layout_marginBottom="16dp"
+            android:text="@string/dead_characters_title" />
+
+        <CheckBox
+            android:id="@+id/jeor_mormont"
+            style="@style/quizOption"
+            android:text="@string/jeor_mormont"/>
+        <CheckBox
+            android:id="@+id/jon_snow"
+            style="@style/quizOption"
+            android:text="@string/jon_snow"/>
+        <CheckBox
+            android:id="@+id/robb_stark"
+            style="@style/quizOption"
+            android:text="@string/robb_stark"/>
+        <CheckBox
+            android:id="@+id/the_hound"
+            style="@style/quizOption"
+            android:text="@string/the_hound"/>
+        <CheckBox
+            android:id="@+id/little_finger"
+            style="@style/quizOption"
+            android:text="@string/little_finger"/>
+        <CheckBox
+            android:id="@+id/ros"
+            style="@style/quizOption"
+            android:text="@string/ros"/>
+        <CheckBox
+            android:id="@+id/bran_stark"
+            style="@style/quizOption"
+            android:text="@string/bran_stark"/>
+        <CheckBox
+            android:id="@+id/talysa_maegyr"
+            style="@style/quizOption"
+            android:text="@string/talysa_maegyr"/>
+        <CheckBox
+            android:id="@+id/kahl_drogo"
+            style="@style/quizOption"
+            android:text="@string/khal_drogo"/>
+        <CheckBox
+            android:id="@+id/grey_wind"
+            style="@style/quizOption"
+            android:text="@string/grey_wind"/>
+        <CheckBox
+            android:id="@+id/jorah_mormont"
+            style="@style/quizOption"
+            android:text="@string/jorah_mormont"/>
+        <CheckBox
+            android:id="@+id/ygritte"
+            style="@style/quizOption"
+            android:text="@string/ygritte"/>
+        <CheckBox
+            android:id="@+id/shae"
+            style="@style/quizOption"
+            android:text="@string/shae"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/accent"
+            android:textColor="@color/icons"
+            android:onClick="checkSolution"
+            android:text="@string/submit"/>
+    </LinearLayout>
+</ScrollView>

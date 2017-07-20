@@ -1,0 +1,63 @@
+<resources xmlns:xliff="rn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Quizz App</string>
+
+    <!-- titles -->
+    <string name="guess_who_title">Guess who said...</string>
+    <string name="quotes_title">Guess the movie/TV series of the following quotes</string>
+    <string name="dead_characters_title">Which of these characters have died in the Game of Throne TV series? (up to S07E01)</string>
+
+    <!-- questions -->
+    <string name="do_or_do_not">\"Do, or do not, there\'s no try.\"?</string>
+    <string name="bigger_boat">\"We\'re going to need a bigger boat.\"</string>
+    <string name="resistance_is_futile">\"Resistance is futile\"</string>
+    <string name="this_town_needs_an_enema">\"This town needs an enema.\"</string>
+    <string name="what_have_the_romans">\"What have the romans ever done for us?\"</string>
+    <string name="what_she_is_having">\"I\'ll have what she\'s having.\"</string>
+    <string name="back_online">\"Bring yourself back online.\"</string>
+    <string name="no_true_king">\"Any man who must say \'I am the king\' is no true king.\"</string>
+    <string name="always_forward_pops">\"Always forward, Pops\"</string>
+    <string name="play_a_game">\"Shall we play a game?\"</string>
+
+    <!-- options -->
+    <string name="the_empire_strikes_back">The Empire Strikes Back</string>
+    <string name="the_return_of_the_jedi">The Return of the Jedi</string>
+    <string name="jaws">Jaws</string>
+    <string name="titanic">Titanic</string>
+    <string name="galactica">Galactica</string>
+    <string name="star_trek_voyager">Star Trek Voyager</string>
+    <string name="batman">Batman</string>
+    <string name="ace_ventura_pet_detective">Ace Ventura, Pet Detective</string>
+    <string name="gladiator">Gladiator</string>
+    <string name="life_of_bryan">Life of Bryan</string>
+    <string name="when_harry_met_sally">When Harry Met Sally</string>
+    <string name="notting_hill">Notting Hill</string>
+    <string name="minority_report">Minority Report</string>
+    <string name="westworld">Westworld</string>
+    <string name="game_of_thrones">Game of Thrones</string>
+    <string name="the_300">300</string>
+    <string name="superman">Superman</string>
+    <string name="luke_cage">Luke Cage</string>
+    <string name="wargames">Wargames</string>
+    <string name="mr_robot">Mr. Robot</string>
+
+    <!-- GoT characters -->
+    <string name="jeor_mormont">Jeor Mormont</string>
+    <string name="jon_snow">Jon Snow</string>
+    <string name="robb_stark">Robb stark</string>
+    <string name="the_hound">The Hound</string>
+    <string name="little_finger">Little Finger</string>
+    <string name="ros">Ros</string>
+    <string name="bran_stark">Bran Stark</string>
+    <string name="talysa_maegyr">Talysa Maegyr</string>
+    <string name="khal_drogo">Khal Drogo</string>
+    <string name="grey_wind">Grey Wind</string>
+    <string name="jorah_mormont">Jorah Mormont</string>
+    <string name="shae">Shae</string>
+    <string name="ygritte">Ygritte</string>
+
+    <string name="submit">submit</string>
+
+    <!-- toast messages -->
+    <string name="toast_success_message">You have no errors! congratulations!</string>
+    <string name="toast_error_message">You have <xliff:g id="errorCount" example="1" >%d</xliff:g> errors but I\'m not going to tell you where. You will have to find out!</string>
+</resources>
