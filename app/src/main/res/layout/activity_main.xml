@@ -46,21 +46,17 @@
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
 
-                <RadioButton
-                    android:id="@+id/jaws"
-                    style="@style/quizOption"
-                    android:text="@string/jaws" />
+            <RadioButton
+                android:id="@+id/jaws"
+                style="@style/quizOption"
+                android:text="@string/jaws" />
 
-                <RadioButton
-                    android:id="@+id/titanic"
-                    style="@style/quizOption"
-                    android:text="@string/titanic" />
-            </LinearLayout>
+            <RadioButton
+                android:id="@+id/titanic"
+                style="@style/quizOption"
+                android:text="@string/titanic" />
+
         </RadioGroup>
 
         <TextView
@@ -70,21 +66,17 @@
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
 
-                <RadioButton
-                    android:id="@+id/galactica"
-                    style="@style/quizOption"
-                    android:text="@string/galactica" />
+            <RadioButton
+                android:id="@+id/galactica"
+                style="@style/quizOption"
+                android:text="@string/galactica" />
 
-                <RadioButton
-                    android:id="@+id/star_trek"
-                    style="@style/quizOption"
-                    android:text="@string/star_trek_voyager" />
-            </LinearLayout>
+            <RadioButton
+                android:id="@+id/star_trek"
+                style="@style/quizOption"
+                android:text="@string/star_trek_voyager" />
+
         </RadioGroup>
 
         <TextView
@@ -94,21 +86,17 @@
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
 
-                <RadioButton
-                    android:id="@+id/batman"
-                    style="@style/quizOption"
-                    android:text="@string/batman" />
+            <RadioButton
+                android:id="@+id/batman"
+                style="@style/quizOption"
+                android:text="@string/batman" />
 
-                <RadioButton
-                    android:id="@+id/ace_ventura"
-                    style="@style/quizOption"
-                    android:text="@string/ace_ventura_pet_detective" />
-            </LinearLayout>
+            <RadioButton
+                android:id="@+id/ace_ventura"
+                style="@style/quizOption"
+                android:text="@string/ace_ventura_pet_detective" />
+
         </RadioGroup>
 
         <TextView
@@ -118,21 +106,17 @@
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
 
-                <RadioButton
-                    android:id="@+id/gladiator"
-                    style="@style/quizOption"
-                    android:text="@string/gladiator" />
+            <RadioButton
+                android:id="@+id/gladiator"
+                style="@style/quizOption"
+                android:text="@string/gladiator" />
 
-                <RadioButton
-                    android:id="@+id/life_bryan"
-                    style="@style/quizOption"
-                    android:text="@string/life_of_bryan" />
-            </LinearLayout>
+            <RadioButton
+                android:id="@+id/life_bryan"
+                style="@style/quizOption"
+                android:text="@string/life_of_bryan" />
+
         </RadioGroup>
 
         <TextView
@@ -142,21 +126,17 @@
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
 
-                <RadioButton
-                    android:id="@+id/harry_met_sally"
-                    style="@style/quizOption"
-                    android:text="@string/when_harry_met_sally" />
+            <RadioButton
+                android:id="@+id/harry_met_sally"
+                style="@style/quizOption"
+                android:text="@string/when_harry_met_sally" />
 
-                <RadioButton
-                    android:id="@+id/notting_hill"
-                    style="@style/quizOption"
-                    android:text="@string/notting_hill" />
-            </LinearLayout>
+            <RadioButton
+                android:id="@+id/notting_hill"
+                style="@style/quizOption"
+                android:text="@string/notting_hill" />
+
         </RadioGroup>
 
         <TextView
@@ -166,21 +146,17 @@
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
 
-                <RadioButton
-                    android:id="@+id/minority_report"
-                    style="@style/quizOption"
-                    android:text="@string/minority_report" />
+            <RadioButton
+                android:id="@+id/minority_report"
+                style="@style/quizOption"
+                android:text="@string/minority_report" />
 
-                <RadioButton
-                    android:id="@+id/westworld"
-                    style="@style/quizOption"
-                    android:text="@string/westworld" />
-            </LinearLayout>
+            <RadioButton
+                android:id="@+id/westworld"
+                style="@style/quizOption"
+                android:text="@string/westworld" />
+
         </RadioGroup>
 
         <TextView
@@ -190,21 +166,16 @@
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
 
-                <RadioButton
-                    android:id="@+id/game_thrones"
-                    style="@style/quizOption"
-                    android:text="@string/game_of_thrones" />
+            <RadioButton
+                android:id="@+id/game_thrones"
+                style="@style/quizOption"
+                android:text="@string/game_of_thrones" />
 
-                <RadioButton
-                    android:id="@+id/the_300"
-                    style="@style/quizOption"
-                    android:text="@string/the_300" />
-            </LinearLayout>
+            <RadioButton
+                android:id="@+id/the_300"
+                style="@style/quizOption"
+                android:text="@string/the_300" />
         </RadioGroup>
 
         <TextView
@@ -215,21 +186,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
 
-                <RadioButton
-                    android:id="@+id/superman"
-                    style="@style/quizOption"
-                    android:text="@string/superman" />
+            <RadioButton
+                android:id="@+id/superman"
+                style="@style/quizOption"
+                android:text="@string/superman" />
 
-                <RadioButton
-                    android:id="@+id/luke_cage"
-                    style="@style/quizOption"
-                    android:text="@string/luke_cage" />
-            </LinearLayout>
+            <RadioButton
+                android:id="@+id/luke_cage"
+                style="@style/quizOption"
+                android:text="@string/luke_cage" />
         </RadioGroup>
 
         <TextView
@@ -240,20 +206,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-                <RadioButton
-                    android:id="@+id/wargames"
-                    style="@style/quizOption"
-                    android:text="@string/wargames" />
+            <RadioButton
+                android:id="@+id/wargames"
+                style="@style/quizOption"
+                android:text="@string/wargames" />
 
-                <RadioButton
-                    android:id="@+id/mr_robot"
-                    style="@style/quizOption"
-                    android:text="@string/mr_robot" />
-            </LinearLayout>
+            <RadioButton
+                android:id="@+id/mr_robot"
+                style="@style/quizOption"
+                android:text="@string/mr_robot" />
         </RadioGroup>
 
         <TextView

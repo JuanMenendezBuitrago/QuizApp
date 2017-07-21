@@ -9,6 +9,8 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.Toast;
 
+import static android.R.id.message;
+
 public class MainActivity extends AppCompatActivity {
 
     /**
@@ -123,9 +125,11 @@ public class MainActivity extends AppCompatActivity {
      * @param errorCount how many errors have been found.
      */
     private void showToast(int errorCount) {
-        String message = getString(R.string.toast_success_message);
+        String message;
         if(errorCount > 0) {
             message = getString(R.string.toast_error_message, errorCount);
+        }else{
+            message = getString(R.string.toast_success_message);
         }
         Toast toast = Toast.makeText(this, message, Toast.LENGTH_SHORT);
         toast.show();
